@@ -1,11 +1,6 @@
 from fastapi import FastAPI 
+from routes.route import router
 
 app=FastAPI()
 
-from pymongo.mongo_client import MongoClient
-client = MongoClient("mongodb://localhost:27017/")
-try:
-    client.admin.command("ping")
-    print("MongoDB connected")
-except Exception as e:
-    print(e)
+app.include_router(router)
