@@ -21,3 +21,8 @@ async def post_todo(todo:Todo):
 @router.put("/{id}")
 async def put_tdo(id:str,todo:Todo):
     collection_name.find_one_and_update({"_id":ObjectId(id)},{"$set":dict(todo)})
+
+#DELETE Request Method
+@router.delete("/{id}")
+async def delete_todo(id:str):
+    collection_name.find_one_and_delete({"_id":ObjectId(id)})
