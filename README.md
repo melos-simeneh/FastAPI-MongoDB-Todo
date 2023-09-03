@@ -22,3 +22,5 @@ this will start the app on http://127.0.0.1:8000
 - GET **/:id**: Get a todo
 - PUT **/:id**: Update a todo.
 - DELETE **/:id**: Delete a todo.
+## Thank You
+Thank you for taking the time to explore the Todo app. I hope it provides you with valuable information.
