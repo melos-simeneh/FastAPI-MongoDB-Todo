@@ -15,3 +15,10 @@ $ pip install fastapi uvicorn pymongo pymongo[srv]
 $ uvicorn main:app --reload
 ```
 this will start the app on http://127.0.0.1:8000
+
+## API Endpoints
+- GET **/**: Get all todos
+- POST **/**: Register a new todo.
+- GET **/:id**: Get a todo
+- PUT **/:id**: Update a todo.
+- DELETE **/:id**: Delete a todo.
