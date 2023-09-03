@@ -1,4 +1,4 @@
-# Todo using FastAPI and MongoDB
+# ✍️ Todo using FastAPI and MongoDB
 ## Prerequisites
 1. FastAPI basics
 2. Python installed
